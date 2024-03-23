@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-23T18:54:08 IST" name="Suite" finished-at="2024-03-23T18:55:02 IST" duration-ms="53831">
+    <groups>
+      <group name="searchBus">
+        <method signature="SearchBusTest.BusSearch()[pri:0, instance:RedBus.Tests.SearchBusTest@533bda92]" name="BusSearch" class="RedBus.Tests.SearchBusTest"/>
+      </group> <!-- searchBus -->
+      <group name="footer">
+        <method signature="FooterLinksTest.footerLinksChecking()[pri:0, instance:RedBus.Tests.FooterLinksTest@6e9a5ed8]" name="footerLinksChecking" class="RedBus.Tests.FooterLinksTest"/>
+      </group> <!-- footer -->
+    </groups>
+    <test started-at="2024-03-23T18:54:08 IST" name="Test" finished-at="2024-03-23T18:55:02 IST" duration-ms="53831">
+      <class name="RedBus.Tests.FooterLinksTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RedBus.Tests.FooterLinksTest@6e9a5ed8]" started-at="2024-03-23T18:54:08 IST" name="launchApplication" finished-at="2024-03-23T18:54:23 IST" duration-ms="15349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="footerLinksChecking()[pri:0, instance:RedBus.Tests.FooterLinksTest@6e9a5ed8]" started-at="2024-03-23T18:54:23 IST" name="footerLinksChecking" finished-at="2024-03-23T18:54:31 IST" duration-ms="7576" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [28] but found [20]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [28] but found [20]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at RedBus.Tests.FooterLinksTest.footerLinksChecking(FooterLinksTest.java:21)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- footerLinksChecking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RedBus.Tests.FooterLinksTest@6e9a5ed8]" started-at="2024-03-23T18:54:31 IST" name="tearDown" finished-at="2024-03-23T18:54:32 IST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RedBus.Tests.FooterLinksTest -->
+      <class name="RedBus.Tests.SearchBusTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RedBus.Tests.SearchBusTest@533bda92]" started-at="2024-03-23T18:54:32 IST" name="launchApplication" finished-at="2024-03-23T18:54:42 IST" duration-ms="9755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="BusSearch()[pri:0, instance:RedBus.Tests.SearchBusTest@533bda92]" started-at="2024-03-23T18:54:42 IST" name="BusSearch" finished-at="2024-03-23T18:54:49 IST" duration-ms="7328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BusSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RedBus.Tests.SearchBusTest@533bda92]" started-at="2024-03-23T18:54:49 IST" name="tearDown" finished-at="2024-03-23T18:54:50 IST" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RedBus.Tests.SearchBusTest@533bda92]" started-at="2024-03-23T18:54:50 IST" name="launchApplication" finished-at="2024-03-23T18:55:00 IST" duration-ms="9688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="isLogoResent()[pri:0, instance:RedBus.Tests.SearchBusTest@533bda92]" started-at="2024-03-23T18:55:00 IST" name="isLogoResent" finished-at="2024-03-23T18:55:01 IST" duration-ms="1267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isLogoResent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RedBus.Tests.SearchBusTest@533bda92]" started-at="2024-03-23T18:55:01 IST" name="tearDown" finished-at="2024-03-23T18:55:02 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RedBus.Tests.SearchBusTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
